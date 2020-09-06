@@ -12,9 +12,10 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
+pos = y == 1; neg = y ==0;
 
-
-
+plot(X(pos,1),X(pos,2),'ko')
+plot(X(neg,1),X(neg,2),'rx')
 
 
 
